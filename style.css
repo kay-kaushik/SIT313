@@ -1,0 +1,137 @@
+.navbar
+{
+    text-align: center;
+    padding: 5%;
+}
+
+.navbar a
+{
+    font-family: Comfortaa;
+    color: #85729A;
+    padding: 5%;
+    font-weight: 700;
+}
+.cover-container
+{
+    position: relative;
+}
+
+
+.center-container
+{
+    font-family: Comfortaa;
+    text-align: center;
+}
+
+.pp
+{
+   vertical-align: middle;
+   width: 260px;
+   height: 230px;
+   border-radius: 50%;
+}
+
+.image-text {
+    font-family: Comfortaa;
+    color: #85729A;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cover-photo
+{
+    width: 100%;
+    display: block;
+    border-radius: 20%;
+}
+
+.cover-container:hover .image-text
+{
+    display: block;
+}
+
+.projects
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foodbank
+{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+}
+
+.p1
+{
+    font-family: Comfortaa;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #85729A;
+}
+
+.projects2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mario
+{
+    padding-top: 40px;
+    padding-left: 40px;
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+}
+
+.p2
+{
+    font-family: Comfortaa;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #85729A;
+}
+
+.photo-container
+{
+    padding: 2rem 5%;
+}
+
+.photo-container .image-container
+{
+    columns: 15rem 4;
+    gap: 1.4rem;
+}
+
+.photo-container .image-container img
+{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+
+}
+
+.photo-container .image-container img:hover
+{
+    transform: scale(1.01);
+}
+
+.gallery-text
+{
+    font-family: Comfortaa;
+    text-align: center;
+    color: #85729A;
+}
